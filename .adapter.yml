@@ -1,7 +1,7 @@
-name: dClimate Precipitation US
+name: dClimate Precipitation - US
 description: Request a us location and date - lat, lon, unix timestamp - to get historical precipitation data for that day in mm.
 
-node_identifier: DCP
+node_identifier: DCPUS
 
 platforms:
   - Docker
