@@ -1,0 +1,16 @@
+name: dClimate Precipitation US
+description: Request a location (lat, lon) and date (unix timestamp) to get historical precipitation data for that day.
+
+node_identifier: DCP
+
+platforms:
+  - Docker
+
+data_sources:
+  - name: dClimate
+    url: https://api.dclimate.net/
+
+parameters:
+  - lat
+  - lon
+  - date
