@@ -4,7 +4,7 @@ description: Request a us location and date - lat, lon, unix timestamp - to get 
 node_identifier: DCPUS
 
 platforms:
-  - Docker
+  - GCP Functions
 
 data_sources:
   - name: dClimate
