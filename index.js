@@ -74,7 +74,7 @@ const createRequest = (input, callback) => {
         const error = 'Invalid result'
         throw new Error(error)
       }
-
+      response.data = {}
       response.data.result = Number(result) * 25.4
       callback(response.status, Requester.success(jobRunID, response))
     })
